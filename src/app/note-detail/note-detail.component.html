@@ -1,0 +1,15 @@
+<div class="note-detail">
+  <h4>{{ currentDate }}</h4>
+  <textarea
+    placeholder="Add Title"
+    (keyup)="textInputHandler()"
+    class="note-textarea"
+    #titleTextarea
+  >{{ note ? note.title : '' }}</textarea>
+  <textarea
+    placeholder="Add Description"
+    (keyup)="textInputHandler()"
+    class="note-textarea"
+    #bodyTextarea
+  >{{ note ? note.body : '' }}</textarea>
+</div>

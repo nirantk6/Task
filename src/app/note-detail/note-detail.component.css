@@ -1,0 +1,77 @@
+.note-detail {
+  height: calc(75vh - 55px);
+  background-color: #000000;
+  border-left: 1px solid #aaa;
+  overflow: hidden;
+}
+
+h4 {
+  color: #ffffff;
+}
+
+.note-detail span {
+  width: 100%;
+  top: 5px;
+  position: relative;
+  font-size: 14px;
+  opacity: 0.8;
+  color: white;
+}
+
+.note-textarea {
+  background-color: #fff;
+  outline: none;
+  resize: none;
+  width: 80%;
+  height: calc(40vh - 210px);
+  border: none;
+  font-size: 16px;
+  padding: 20px;
+  margin: 10px 10px;
+  border-radius: 15px;
+}
+
+@media (max-width: 760px) {
+  .note-detail {
+    height: calc(100vh - 55px);
+    background-color: #000000;
+    border-left: 1px solid #aaa;
+    overflow: hidden;
+  }
+  .note-textarea {
+    background-color: #fff;
+    outline: none;
+    resize: none;
+    width: 45vw;
+    height: calc(60vh - 210px);
+    border: none;
+    font-size: 16px;
+    padding: 15px;
+    margin: 10px 10px;
+    border-radius: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .note-detail {
+    height: calc(100vh - 55px);
+    background-color: #000000;
+    border-left: 1px solid #aaa;
+    /* border-right: 1px solid #aaa; */
+    /* margin: 3px; */
+    overflow: hidden;
+  }
+
+  .note-textarea {
+    background-color: #fff;
+    outline: none;
+    resize: none;
+    width: 45vw;
+    height: calc(60vh - 210px);
+    border: none;
+    font-size: 16px;
+    padding: 15px;
+    margin: 10px 10px;
+    border-radius: 15px;
+  }
+}
